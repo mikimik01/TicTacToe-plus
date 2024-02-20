@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:splitMotionEvents="false"
+    tools:context=".dwieosoby">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:onClick="resecik"
+            android:background="@color/zolty"
+            android:textSize="20dp"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nowa gra"
+            android:rotation="180"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:rotation="180">
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:id="@+id/info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/info1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+
+
+
+<LinearLayout
+    android:rotation="180"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_gravity="left"
+        android:background="@drawable/boarderss3"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textColor="@color/niebieski"
+        android:text="Gracz 2"/>
+
+
+    <TextView
+        android:layout_weight="1"
+        android:background="@drawable/boarderss"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+
+
+
+</LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/guzik"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="ruch" />
+
+            <Button
+                android:id="@+id/guzik1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="ruch" />
+
+            <Button
+                android:id="@+id/guzik2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="ruch" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/guzik3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="ruch" />
+
+            <Button
+                android:id="@+id/guzik4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="ruch" />
+
+            <Button
+                android:id="@+id/guzik5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="ruch" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/guzik6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="ruch" />
+
+            <Button
+                android:id="@+id/guzik7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="ruch" />
+
+            <Button
+                android:id="@+id/guzik8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="ruch" />
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_gravity="left"
+                android:background="@drawable/boarderss3"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textColor="@color/czerwony"
+                android:text="Gracz 1"/>
+
+
+            <TextView
+                android:layout_weight="1"
+                android:background="@drawable/boarderss"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:id="@+id/info2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/info3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:onClick="resecik"
+            android:background="@color/zolty"
+            android:textSize="20dp"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nowa gra"/>
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lini1"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:id="@+id/lini2"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:id="@+id/lini3"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="100dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:rotation="90">
+
+        <TextView
+            android:id="@+id/lini4"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/lini5"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/lini6"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/lini7"
+        android:rotation="45"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:id="@+id/lini8"
+        android:rotation="-45"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="100dp" />
+
+
+
+
+
+
+</FrameLayout>

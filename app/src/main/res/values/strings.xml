@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tic tac toe +</string>
+    <string name="znakX">X</string>
+    <string name="znakY">Y</string>
+
+    <string name="new_message_notification_title_template">New message: %1$s</string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="nzn">Nie zapomnij do mnie napisać! - Miki</string>
+</resources>
